@@ -1,0 +1,54 @@
+html {
+    font-size: 24px;
+}
+
+body {
+    background: aliceblue;
+    font-family: sans-serif;
+}
+
+.header__h1 {
+    text-align: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav__list__item {
+    padding: 1rem 2rem;
+    border: 5px solid aquamarine;
+    border-radius: 10px;
+    background: azure;
+    cursor: pointer;
+}
+
+.task__header {
+    font-size: 1rem;
+}
+
+.task-input {
+    width: 150px;
+    font-size: 0.7rem;
+}
+
+.task-input-sq {
+    padding: 0;
+    width: 1.6rem;
+    height: 1.6rem ;
+    font-size: 0.7rem;
+    text-align: center;
+    transition: .2s;
+}
+
+.task-input-sq:focus {
+    height: 2.5rem;
+}
+
+.task-button {
+    font-size: 0.7rem;
+}
